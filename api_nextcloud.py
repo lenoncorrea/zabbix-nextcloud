@@ -1,3 +1,4 @@
+#!/etc/zabbix/scripts/venv/bin/python
 import requests
 import json
 from hurry.filesize import size
