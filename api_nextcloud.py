@@ -67,4 +67,4 @@ if __name__ == '__main__':
   token = sys.argv[3]
   argument = sys.argv[4]
   result = main(baseUrl,user,token,argument)
-  return result
+  print(result)
