@@ -44,6 +44,7 @@ systemctl restart zabbix-agent
 ```
 
 ### Importe o template no Zabbix, atrele ao Nextcloud, e altere as váriaveis a seguir (nos Macros do servidor a ser monitorado).
+#### O template é 'zabbix-nextcloud.xml' que esta neste repositório.
 ```python
 BASEURL = 'URL_DO_NEXTCLOUD'
 USER = 'USUARIO_CRIADO'
