@@ -33,7 +33,7 @@ pip install -r /etc/zabbix/scripts/zabbix-nextcloud-api/requirements.txt
 ```
 
 ### Nextcloud
-Agora, na interface WEB do Nextcloud, crie um usuário com privilégios de Administrador (para que tenha acesso as informações da API). Após, para obter o 'apppassword' (necessário para nosso uso), siga documentação do Nextcloud, disponível em: [Documentação API Nextcloud](https://docs.nextcloud.com/server/latest/developer_manual/client_apis/LoginFlow/index.html/).
+Agora, na interface WEB do Nextcloud, crie um usuário com privilégios de Administrador (para que tenha acesso as informações da API). Após, para obter o 'apppassword' (necessário para nosso uso), siga documentação do Nextcloud, disponível em: [Documentação API Nextcloud](https://docs.nextcloud.com/server/latest/developer_manual/client_apis/LoginFlow/).
 
 ### Ajuste Zabbix Agent e Restart
 Retorne ao servidor Nextcloud (a ser monitorado). Por padrão o Zabbix não aceita alguns parametros no retorno, então realizamos este ajuste, e após restartamos o Agent.
