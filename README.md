@@ -3,7 +3,7 @@
 Instale os pacotes Git e Python3.7 no servidor Nextcloud a ser monitorado.
 
 ```bash
-apt install git python3.7 python3-venv -y
+apt install git python3 python3-venv -y
 ```
 
 ### Baixando
@@ -19,8 +19,8 @@ git clone https://github.com/lenoncorrea/zabbix-nextcloud-api.git
 Copie o arquivo '.conf' para o local correto (contém o UserParameter do Zabbix) e ajuste as permissões.
 
 ```bash
-mv /etc/zabbix/scripts/zabbix-nextcloud-api/nextcloud_api.conf /etc/zabbix/zabbix_agentd.conf.d/
-chmod 755 /etc/zabbix/zabbix_agentd.conf.d/nextcloud_api.conf
+mv /etc/zabbix/scripts/zabbix-nextcloud-api/nextcloud_api.conf /etc/zabbix/zabbix_agentd.d/
+chmod 755 /etc/zabbix/zabbix_agentd.d/nextcloud_api.conf
 chmod 755 /etc/zabbix/scripts/zabbix-nextcloud-api/api_nextcloud.py
 ```
 ### VirtualEnv
